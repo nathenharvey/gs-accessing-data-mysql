@@ -2,8 +2,15 @@
 
 ## Description
 
-Provide a brief description of the `gs-accessing-data-mysql` plan / purpose.
+This is a Habitat package used to demonstrate packaging a Spring Boot project
+and using Habitat's native service discovery to connect that application to a
+MySQL database.
+
+The application is the
+[Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+tutorial taken from the Spring Guides.
 
 ## Usage
 
-Describe the general usage for the `gs-accessing-data-mysql` plan
+Launch a mysql service.
+Launch this service, bind to mysql.
