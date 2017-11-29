@@ -8,3 +8,8 @@ pkg_upstream_url="https://github.com/nathenharvey/gs-accessing-data-mysql/tree/m
 pkg_exports=(
   [port]=port
 )
+pkg_exposes=(port)
+
+pkg_binds=(
+  [database]="port host"
+)
