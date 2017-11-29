@@ -1,0 +1,4 @@
+[gs-accessing-data-mysql]
+plan_path = "complete/habitat/plan.sh"
+paths = [ "complete/habitat/*" ]
+
