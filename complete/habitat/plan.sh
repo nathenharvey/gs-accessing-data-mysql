@@ -13,3 +13,8 @@ pkg_exposes=(port)
 pkg_binds=(
   [database]="port host"
 )
+
+do_install() {
+  do_default_install
+  ln -nsf "$pkg_svc_path/config/application.properties" "$pkg_prefix/app/"
+}
