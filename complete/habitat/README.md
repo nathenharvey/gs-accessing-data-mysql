@@ -52,3 +52,9 @@ Do this from either of the two java hosts
 
 * `curl localhost:8080/demo/all | jq`
 
+
+## Stop everything
+
+`sudo hab sup unload nathenharvey/gs-accessing-data-mysql`
+`sudo hab sup unload core/mysql`
+`sudo hab sup term`
